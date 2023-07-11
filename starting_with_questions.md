@@ -3,13 +3,15 @@ Answer the following questions and provide the SQL queries used to find the answ
     
 **Question 1: Which cities and countries have the highest level of transaction revenues on the site?**
 
-
 SQL Queries:
-
+SELECT "City", "Country","TransactionRevenue" AS Highest_Transaction_Revenue
+FROM "All_Sessions"
+WHERE "TransactionRevenue" = (SELECT MAX("TransactionRevenue") FROM "All_Sessions")
 
 
 Answer:
-
+City: Sunnyvale
+Country: UnitedStates
 
 
 
