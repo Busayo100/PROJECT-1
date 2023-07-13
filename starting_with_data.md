@@ -1,17 +1,19 @@
-Question 1: 
+Question 1: What is the product with the highest sentimental value?
 
-SQL Queries:
+SQL Queries: SELECT products."name" 
+             FROM products
+             WHERE products."sentimentScore" = (SELECT MAX(products."sentimentScore") FROM products)
 
-Answer: 
+Answer: "USB wired soundbar - in store only"
 
+Question 2: How many visitors are not socially engaged
 
+SQL Queries:SELECT DISTINCT(analytics."visitId") AS Distinct_visitId 
+            FROM analytics 
+            WHERE analytics."socialEngagementType" = 'Not Socially Engaged'
+            GROUP BY "visitId"
 
-Question 2: 
-
-SQL Queries:
-
-Answer:
-
+Answer:  148642 rows
 
 
 Question 3: 
@@ -22,16 +24,6 @@ Answer:
 
 
 
-Question 4: 
-
-SQL Queries:
-
-Answer:
 
 
 
-Question 5: 
-
-SQL Queries:
-
-Answer:
