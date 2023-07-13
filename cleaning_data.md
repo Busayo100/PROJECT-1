@@ -1,10 +1,9 @@
 What issues will you address by cleaning the data?
 * remove Null values in the 'Ratio' column of the sales_report table
 * View and remove duplicates in the sales_report table
-*View and remove duplicates in the "All_sessions" table
-
-
+* View and remove duplicates in the "All_sessions" table
 *Assign primary and foreign keys
+
 
 Queries:
 Below, provide the SQL queries you used to clean your data.
