@@ -16,16 +16,15 @@ The project goals are as follows:
 ## Results
 - the dataset had a lot of duplicates, empty columns/null values
 - I discovered that 148,642 visitors were not socially engaged, and using the COUNT and DISTINCT function gave the same result
-- I discovered that the United states is the country with the top selling product, the product being mountain veiw
-- USB wired soundbar is the product with the highest sentimental value
+- I discovered that the United states is the country with the top selling product, city being mountain veiw
+- USB wired soundbar - instore only is the product with the highest sentimental value
 
 
 ## Challenges 
-- the first challenge was assigning the primary and foreign keys. I was trying to assign these keys when I had not cleaned the data, and because there were duplicates, I could not assign the keys when creating the table. So I had to create the table first, cleaned the data - remove the duplicates, before I could assign the primary and foreign keys.
-- the other challenge I encounterd, which was a really big one, was, when I was almost done cleaning my data, my computer did an update and a restart, and by the time it came back on, I lost all my tables. I asked for assistance and Rachel was able to help recover public tables. However, the tables had a lot of missing data, so I could not generate the ERD to give me the schema; I would have to drop all the tables, import them again, and start cleaning all over which would take a lot of time.
+- the first challenge was assigning the primary and foreign keys. I was trying to assign these keys when I had not cleaned the data, and because there were duplicates, I could not assign the keys when creating the table. So after spending a lot of time trying to figure this out, I requested for assistance.  I was told to clean the data - remove the duplicates, before I could assign the primary and foreign keys.
+- the other challenge I encounterd, which was a really big one, was, when I was done cleaning my data and started creating my questions, my computer did an update and a restart, and by the time it came back on, I lost all my tables. I asked for assistance and Rachel was able to help recover public tables. However, the tables had a lot of missing data, so I could not generate the ERD to give me the schema, and could not answer the "starting with questions", only 2  of the questions I created.
 
 ## Future Goals
-If I had more time, I would create more questions that will link two or more tables together to practice joins.  Also, I would find ways to do more cleaning on the data, and do QA on the data to make sure
-the data is of good quality 
+If I had more time, I would create new tables, and do the cleaning process all over again, answer the 'starting with questions', create more questions that will link two or more tables together to practice joins.  Also, I would do QA on the data to make sure the data is of good quality 
 
 
