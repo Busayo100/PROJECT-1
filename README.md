@@ -22,7 +22,7 @@ The project goals are as follows:
 
 ## Challenges 
 - the first challenge was assigning the primary and foreign keys. I was trying to assign these keys when I had not cleaned the data, and because there were duplicates, I could not assign the keys when creating the table. So I had to create the table first, cleaned the data - remove the duplicates, before I could assign the primary and foreign keys.
-- the other challenge I encounterd, which was a really big one, was, when I was almost done cleaning my data, my computer did an update and a restart, and by the time it came back on, I lost all my tables. I asked for assistance and Rachel was able to help recover public tables.
+- the other challenge I encounterd, which was a really big one, was, when I was almost done cleaning my data, my computer did an update and a restart, and by the time it came back on, I lost all my tables. I asked for assistance and Rachel was able to help recover public tables. However, the tables had a lot of missing data, so I could not generate the ERD to give me the schema; I would have to drop all the tables, import them again, and start cleaning all over which would take a lot of time.
 
 ## Future Goals
 If I had more time, I would create more questions that will link two or more tables together to practice joins.  Also, I would find ways to do more cleaning on the data, and do QA on the data to make sure
